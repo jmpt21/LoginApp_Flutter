@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "815390264863",
+    "project_id": "loginappflutter-96d85",
+    "storage_bucket": "loginappflutter-96d85.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:815390264863:android:675cf193270544d9430f2a",
+        "android_client_info": {
+          "package_name": "com.cdhidalgo.tecnm.mx.login_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "815390264863-6iuq0fedhpthomt7hvgaevnmtj0nmikb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHuznNIaQ0PPAON-StrsaACk-J5bzmr6s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "815390264863-6iuq0fedhpthomt7hvgaevnmtj0nmikb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "815390264863-6386962if11t6poo2bf3vh33atj4hoon.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.cdhidalgo.tecnm.mx.loginApp.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
