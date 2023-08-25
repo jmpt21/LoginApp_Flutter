@@ -17,6 +17,7 @@ class _LoginScreenState extends State<LoginScreen> {
   late String email;
   late String password;
   late String? warningMessage = '';
+  late String warningMessage2 = '';
 
   @override
   Widget build(BuildContext context) {
@@ -67,7 +68,7 @@ class _LoginScreenState extends State<LoginScreen> {
                           });
                         },
                       ),
-                      Row(
+                      /*Row(
                         children: [
                           Expanded(
                               child: (warningMessage == 'Success')
@@ -76,7 +77,7 @@ class _LoginScreenState extends State<LoginScreen> {
                                   : Text(warningMessage!,
                                       style: const TextStyle(color: Colors.red)))
                         ],
-                      )
+                      )*/
                     ],
                   ),
                 ),
