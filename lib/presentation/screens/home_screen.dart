@@ -14,27 +14,32 @@ class HomeScreen extends StatelessWidget {
         title: const Text('Home', style: TextStyle(fontWeight: FontWeight.w800)),
         centerTitle: true,
       ),
-      body: Center(
-        child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            crossAxisAlignment: CrossAxisAlignment.center,
-            children: [
-              const Text('¡Comencemos!',
-                  style: TextStyle(
-                      fontSize: 40,
-                      fontWeight: FontWeight.w600,
-                      fontFamily: 'Calibri')),
-              const SizedBox(height: 20),
-              FloatingActionButton(
-                onPressed: () {
-                  context.pushNamed(LoginScreen.routeName);
-                },
-                backgroundColor: Colors.cyanAccent,
-                splashColor: Colors.blueAccent,
-                tooltip: 'Ir al login',
-                child: const Icon(Icons.navigate_next_outlined),
-              )
-            ]),
+      body: SingleChildScrollView(
+        child: Padding(
+          padding: const EdgeInsets.symmetric(vertical: 250),
+          child: Center(
+            child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: [
+                  const Text('¡Comencemos!',
+                      style: TextStyle(
+                          fontSize: 40,
+                          fontWeight: FontWeight.w600,
+                          fontFamily: 'Calibri')),
+                  const SizedBox(height: 20),
+                  FloatingActionButton(
+                    onPressed: () {
+                      context.pushNamed(LoginScreen.routeName);
+                    },
+                    backgroundColor: Colors.blueAccent,
+                    /*splashColor: Colors.blueAccent,
+                    tooltip: 'Ir al login',*/
+                    child: const Icon(Icons.navigate_next_outlined),
+                  )
+                ]),
+          ),
+        ),
       ),
     );
   }
